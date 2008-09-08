@@ -6,17 +6,17 @@ libraries with the simplicity of a native Python API, mostly compatible
 but superior to the well-known ElementTree API.
 
 Runtime requirements:
-  cygwin-1.5.25-11
-  libxml2-2.6.32-1
-  libxslt-1.1.23-1
-  python-2.5.2-1
+  cygwin-1.5.25-15
+  libxml2-2.6.32-2
+  libxslt-1.1.24-2
+  python-2.5.2-3
 
 Build requirements:
 (besides corresponding devel packages)
-  binutils-20060817-1
-  cygport-0.3.11-1
+  binutils-20080624-2
+  cygport-0.4.0-1
   gcc-core-3.4.4-3
-  python-2.5.2-1
+  python-2.5.2-3
   python-setuptools-0.6c6-1
 
 Canonical website:
@@ -28,26 +28,26 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-lxml-2.0.5-X-src.tar.bz2
+  unpack python-lxml-2.1.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-lxml-2.0.5-X.cygport all
+  cygport ./python-lxml-2.1.2-X.cygport all
 
 This will create:
-  /usr/src/python-lxml-2.0.5-X-src.tar.bz2
-  /usr/src/python-lxml-2.0.5-X.tar.bz2
+  /usr/src/python-lxml-2.1.2-X-src.tar.bz2
+  /usr/src/python-lxml-2.1.2-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/lib/python2.5/site-packages/lxml-2.0.5-py2.5.egg-info/PKG-INFO
-  /usr/lib/python2.5/site-packages/lxml-2.0.5-py2.5.egg-info/SOURCES.txt
-  /usr/lib/python2.5/site-packages/lxml-2.0.5-py2.5.egg-info/dependency_links.txt
-  /usr/lib/python2.5/site-packages/lxml-2.0.5-py2.5.egg-info/native_libs.txt
-  /usr/lib/python2.5/site-packages/lxml-2.0.5-py2.5.egg-info/not-zip-safe
-  /usr/lib/python2.5/site-packages/lxml-2.0.5-py2.5.egg-info/top_level.txt
+  /usr/lib/python2.5/site-packages/lxml-2.1.2-py2.5.egg-info/PKG-INFO
+  /usr/lib/python2.5/site-packages/lxml-2.1.2-py2.5.egg-info/SOURCES.txt
+  /usr/lib/python2.5/site-packages/lxml-2.1.2-py2.5.egg-info/dependency_links.txt
+  /usr/lib/python2.5/site-packages/lxml-2.1.2-py2.5.egg-info/native_libs.txt
+  /usr/lib/python2.5/site-packages/lxml-2.1.2-py2.5.egg-info/not-zip-safe
+  /usr/lib/python2.5/site-packages/lxml-2.1.2-py2.5.egg-info/top_level.txt
   /usr/lib/python2.5/site-packages/lxml/ElementInclude.py
   /usr/lib/python2.5/site-packages/lxml/ElementInclude.pyc
   /usr/lib/python2.5/site-packages/lxml/ElementInclude.pyo
@@ -104,22 +104,27 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/lxml/html/usedoctest.pyc
   /usr/lib/python2.5/site-packages/lxml/html/usedoctest.pyo
   /usr/lib/python2.5/site-packages/lxml/objectify.dll
-  /usr/lib/python2.5/site-packages/lxml/pyclasslookup.dll
+  /usr/lib/python2.5/site-packages/lxml/pyclasslookup.py
+  /usr/lib/python2.5/site-packages/lxml/pyclasslookup.pyc
+  /usr/lib/python2.5/site-packages/lxml/pyclasslookup.pyo
   /usr/lib/python2.5/site-packages/lxml/sax.py
   /usr/lib/python2.5/site-packages/lxml/sax.pyc
   /usr/lib/python2.5/site-packages/lxml/sax.pyo
   /usr/lib/python2.5/site-packages/lxml/usedoctest.py
   /usr/lib/python2.5/site-packages/lxml/usedoctest.pyc
   /usr/lib/python2.5/site-packages/lxml/usedoctest.pyo
-  /usr/share/doc/python-lxml-2.0.5/CREDITS.txt
-  /usr/share/doc/python-lxml-2.0.5/Changes.txt
-  /usr/share/doc/python-lxml-2.0.5/INSTALL.txt
-  /usr/share/doc/python-lxml-2.0.5/README.txt
-  /usr/share/doc/python-lxml-2.0.5/TODO.txt
+  /usr/share/doc/python-lxml-2.1.2/CREDITS.txt
+  /usr/share/doc/python-lxml-2.1.2/Changes.txt
+  /usr/share/doc/python-lxml-2.1.2/INSTALL.txt
+  /usr/share/doc/python-lxml-2.1.2/README.txt
+  /usr/share/doc/python-lxml-2.1.2/TODO.txt
 
 ------------------
 
 Port Notes:
+
+----- version 2.1.2-1 -----
+Version bump.
 
 ----- version 2.0.5-1 -----
 Version bump.
