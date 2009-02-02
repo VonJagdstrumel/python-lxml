@@ -9,7 +9,7 @@ Runtime requirements:
   cygwin-1.5.25-15
   libxml2-2.7.2-1
   libxslt-1.1.24-2
-  python-2.5.2-4
+  python-2.5.4-1
 
 Build requirements:
 (besides corresponding devel packages)
@@ -28,26 +28,26 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-lxml-2.1.4-X-src.tar.bz2
+  unpack python-lxml-2.1.5-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-lxml-2.1.4-X.cygport all
+  cygport ./python-lxml-2.1.5-X.cygport all
 
 This will create:
-  /usr/src/python-lxml-2.1.4-X-src.tar.bz2
-  /usr/src/python-lxml-2.1.4-X.tar.bz2
+  /usr/src/python-lxml-2.1.5-X-src.tar.bz2
+  /usr/src/python-lxml-2.1.5-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/lib/python2.5/site-packages/lxml-2.1.4-py2.5.egg-info/PKG-INFO
-  /usr/lib/python2.5/site-packages/lxml-2.1.4-py2.5.egg-info/SOURCES.txt
-  /usr/lib/python2.5/site-packages/lxml-2.1.4-py2.5.egg-info/dependency_links.txt
-  /usr/lib/python2.5/site-packages/lxml-2.1.4-py2.5.egg-info/native_libs.txt
-  /usr/lib/python2.5/site-packages/lxml-2.1.4-py2.5.egg-info/not-zip-safe
-  /usr/lib/python2.5/site-packages/lxml-2.1.4-py2.5.egg-info/top_level.txt
+  /usr/lib/python2.5/site-packages/lxml-2.1.5-py2.5.egg-info/PKG-INFO
+  /usr/lib/python2.5/site-packages/lxml-2.1.5-py2.5.egg-info/SOURCES.txt
+  /usr/lib/python2.5/site-packages/lxml-2.1.5-py2.5.egg-info/dependency_links.txt
+  /usr/lib/python2.5/site-packages/lxml-2.1.5-py2.5.egg-info/native_libs.txt
+  /usr/lib/python2.5/site-packages/lxml-2.1.5-py2.5.egg-info/not-zip-safe
+  /usr/lib/python2.5/site-packages/lxml-2.1.5-py2.5.egg-info/top_level.txt
   /usr/lib/python2.5/site-packages/lxml/ElementInclude.py
   /usr/lib/python2.5/site-packages/lxml/ElementInclude.pyc
   /usr/lib/python2.5/site-packages/lxml/ElementInclude.pyo
@@ -113,15 +113,18 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/lxml/usedoctest.py
   /usr/lib/python2.5/site-packages/lxml/usedoctest.pyc
   /usr/lib/python2.5/site-packages/lxml/usedoctest.pyo
-  /usr/share/doc/python-lxml-2.1.4/CREDITS.txt
-  /usr/share/doc/python-lxml-2.1.4/Changes.txt
-  /usr/share/doc/python-lxml-2.1.4/INSTALL.txt
-  /usr/share/doc/python-lxml-2.1.4/README.txt
-  /usr/share/doc/python-lxml-2.1.4/TODO.txt
+  /usr/share/doc/python-lxml-2.1.5/CREDITS.txt
+  /usr/share/doc/python-lxml-2.1.5/Changes.txt
+  /usr/share/doc/python-lxml-2.1.5/INSTALL.txt
+  /usr/share/doc/python-lxml-2.1.5/README.txt
+  /usr/share/doc/python-lxml-2.1.5/TODO.txt
 
 ------------------
 
 Port Notes:
+
+----- version 2.1.5-1 -----
+Version bump.
 
 ----- version 2.1.4-1 -----
 Version bump.
