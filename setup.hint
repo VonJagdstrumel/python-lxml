@@ -1,5 +1,5 @@
 category: Python
-requires: cygwin libgcc1 libxml2 libxslt python
+requires: libgcc1 libxml2 libxslt python
 sdesc: "Python XML2/XSLT bindings"
 ldesc: "lxml is a Pythonic binding for the libxml2 and libxslt 
 libraries. It is unique in that it combines the speed and feature 
