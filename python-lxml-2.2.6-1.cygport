@@ -1,4 +1,3 @@
-ORIG_PN="lxml"
 inherit distutils
 
 DESCRIPTION="Python XML2/XSLT bindings"

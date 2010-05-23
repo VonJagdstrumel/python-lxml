@@ -6,127 +6,45 @@ libraries with the simplicity of a native Python API, mostly compatible
 but superior to the well-known ElementTree API.
 
 Runtime requirements:
-  cygwin-1.7.0-48
-  libgcc1-4.3.2-2
-  libxml2-2.7.3-10
-  libxslt-1.1.24-10
-  python-2.5.4-10
+  cygwin-1.7.5-1
+  libgcc1-4.3.4-3
+  libxml2-2.7.7-1
+  libxslt-1.1.26-1
+  python-2.6.5-1
 
 Build requirements:
 (besides corresponding devel packages)
-  binutils-20080624-2
-  cygport-0.9.6-1
-  gcc4-core-4.3.2-2
-  python-2.5.4-10
-  python-setuptools-0.6c9-10
+  binutils-2.20.51-2
+  cygport-0.9.84-1
+  gcc4-core-4.3.4-3
+  python-2.6.5-1
+  python-setuptools-0.6.12-1
 
 Canonical website:
-  http://cheeseshop.python.org/pypi/lxml
+  http://pypi.python.org/pypi/lxml
 
 Canonical download:
-  http://cheeseshop.python.org/packages/source/?/lxml/
+  http://pypi.python.org/packages/source/l/lxml/
 
 -------------------------------------------
 
 Build instructions:
-  unpack python-lxml-2.2.1-X-src.tar.bz2
+  unpack python-lxml-2.2.6-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-lxml-2.2.1-X.cygport all
+  cygport ./python-lxml-2.2.6-X.cygport all
 
 This will create:
-  /usr/src/python-lxml-2.2.1-X-src.tar.bz2
-  /usr/src/python-lxml-2.2.1-X.tar.bz2
+  /usr/src/python-lxml-2.2.6-X-src.tar.bz2
+  /usr/src/python-lxml-2.2.6-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/python2.5/site-packages/lxml-2.2.1-py2.5.egg-info/PKG-INFO
-  /usr/lib/python2.5/site-packages/lxml-2.2.1-py2.5.egg-info/SOURCES.txt
-  /usr/lib/python2.5/site-packages/lxml-2.2.1-py2.5.egg-info/dependency_links.txt
-  /usr/lib/python2.5/site-packages/lxml-2.2.1-py2.5.egg-info/not-zip-safe
-  /usr/lib/python2.5/site-packages/lxml-2.2.1-py2.5.egg-info/top_level.txt
-  /usr/lib/python2.5/site-packages/lxml/ElementInclude.py
-  /usr/lib/python2.5/site-packages/lxml/ElementInclude.pyc
-  /usr/lib/python2.5/site-packages/lxml/ElementInclude.pyo
-  /usr/lib/python2.5/site-packages/lxml/__init__.py
-  /usr/lib/python2.5/site-packages/lxml/__init__.pyc
-  /usr/lib/python2.5/site-packages/lxml/__init__.pyo
-  /usr/lib/python2.5/site-packages/lxml/_elementpath.py
-  /usr/lib/python2.5/site-packages/lxml/_elementpath.pyc
-  /usr/lib/python2.5/site-packages/lxml/_elementpath.pyo
-  /usr/lib/python2.5/site-packages/lxml/builder.py
-  /usr/lib/python2.5/site-packages/lxml/builder.pyc
-  /usr/lib/python2.5/site-packages/lxml/builder.pyo
-  /usr/lib/python2.5/site-packages/lxml/cssselect.py
-  /usr/lib/python2.5/site-packages/lxml/cssselect.pyc
-  /usr/lib/python2.5/site-packages/lxml/cssselect.pyo
-  /usr/lib/python2.5/site-packages/lxml/doctestcompare.py
-  /usr/lib/python2.5/site-packages/lxml/doctestcompare.pyc
-  /usr/lib/python2.5/site-packages/lxml/doctestcompare.pyo
-  /usr/lib/python2.5/site-packages/lxml/etree.dll
-  /usr/lib/python2.5/site-packages/lxml/html/ElementSoup.py
-  /usr/lib/python2.5/site-packages/lxml/html/ElementSoup.pyc
-  /usr/lib/python2.5/site-packages/lxml/html/ElementSoup.pyo
-  /usr/lib/python2.5/site-packages/lxml/html/__init__.py
-  /usr/lib/python2.5/site-packages/lxml/html/__init__.pyc
-  /usr/lib/python2.5/site-packages/lxml/html/__init__.pyo
-  /usr/lib/python2.5/site-packages/lxml/html/_dictmixin.py
-  /usr/lib/python2.5/site-packages/lxml/html/_dictmixin.pyc
-  /usr/lib/python2.5/site-packages/lxml/html/_dictmixin.pyo
-  /usr/lib/python2.5/site-packages/lxml/html/_diffcommand.py
-  /usr/lib/python2.5/site-packages/lxml/html/_diffcommand.pyc
-  /usr/lib/python2.5/site-packages/lxml/html/_diffcommand.pyo
-  /usr/lib/python2.5/site-packages/lxml/html/_html5builder.py
-  /usr/lib/python2.5/site-packages/lxml/html/_html5builder.pyc
-  /usr/lib/python2.5/site-packages/lxml/html/_html5builder.pyo
-  /usr/lib/python2.5/site-packages/lxml/html/_setmixin.py
-  /usr/lib/python2.5/site-packages/lxml/html/_setmixin.pyc
-  /usr/lib/python2.5/site-packages/lxml/html/_setmixin.pyo
-  /usr/lib/python2.5/site-packages/lxml/html/builder.py
-  /usr/lib/python2.5/site-packages/lxml/html/builder.pyc
-  /usr/lib/python2.5/site-packages/lxml/html/builder.pyo
-  /usr/lib/python2.5/site-packages/lxml/html/clean.py
-  /usr/lib/python2.5/site-packages/lxml/html/clean.pyc
-  /usr/lib/python2.5/site-packages/lxml/html/clean.pyo
-  /usr/lib/python2.5/site-packages/lxml/html/defs.py
-  /usr/lib/python2.5/site-packages/lxml/html/defs.pyc
-  /usr/lib/python2.5/site-packages/lxml/html/defs.pyo
-  /usr/lib/python2.5/site-packages/lxml/html/diff.py
-  /usr/lib/python2.5/site-packages/lxml/html/diff.pyc
-  /usr/lib/python2.5/site-packages/lxml/html/diff.pyo
-  /usr/lib/python2.5/site-packages/lxml/html/formfill.py
-  /usr/lib/python2.5/site-packages/lxml/html/formfill.pyc
-  /usr/lib/python2.5/site-packages/lxml/html/formfill.pyo
-  /usr/lib/python2.5/site-packages/lxml/html/html5parser.py
-  /usr/lib/python2.5/site-packages/lxml/html/html5parser.pyc
-  /usr/lib/python2.5/site-packages/lxml/html/html5parser.pyo
-  /usr/lib/python2.5/site-packages/lxml/html/soupparser.py
-  /usr/lib/python2.5/site-packages/lxml/html/soupparser.pyc
-  /usr/lib/python2.5/site-packages/lxml/html/soupparser.pyo
-  /usr/lib/python2.5/site-packages/lxml/html/usedoctest.py
-  /usr/lib/python2.5/site-packages/lxml/html/usedoctest.pyc
-  /usr/lib/python2.5/site-packages/lxml/html/usedoctest.pyo
-  /usr/lib/python2.5/site-packages/lxml/objectify.dll
-  /usr/lib/python2.5/site-packages/lxml/pyclasslookup.py
-  /usr/lib/python2.5/site-packages/lxml/pyclasslookup.pyc
-  /usr/lib/python2.5/site-packages/lxml/pyclasslookup.pyo
-  /usr/lib/python2.5/site-packages/lxml/sax.py
-  /usr/lib/python2.5/site-packages/lxml/sax.pyc
-  /usr/lib/python2.5/site-packages/lxml/sax.pyo
-  /usr/lib/python2.5/site-packages/lxml/usedoctest.py
-  /usr/lib/python2.5/site-packages/lxml/usedoctest.pyc
-  /usr/lib/python2.5/site-packages/lxml/usedoctest.pyo
-  /usr/share/doc/python-lxml/CREDITS.txt
-  /usr/share/doc/python-lxml/Changes.txt
-  /usr/share/doc/python-lxml/README.txt
-  /usr/share/doc/python-lxml/TODO.txt
-
-------------------
-
 Port Notes:
+
+----- version 2.2.6-1 -----
+Version bump, built for Python 2.6.
 
 ----- version 2.2.1-1 -----
 Initial release for Cygwin 1.7.
