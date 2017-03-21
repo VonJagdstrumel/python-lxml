@@ -1,7 +1,7 @@
-inherit python-distutils
+inherit python-wheel
 
 NAME="python-lxml"
-VERSION=3.4.4
+VERSION=3.7.3
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python XML2/XSLT bindings"
