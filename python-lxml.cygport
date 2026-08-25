@@ -1,7 +1,7 @@
 inherit python-wheel
 
 NAME="python-lxml"
-VERSION=5.2.2
+VERSION=6.1.2
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python XML2/XSLT bindings"
